@@ -8,9 +8,9 @@
     },
     {
       "id": 2,
-      "title": "Ice Cream Sundae",
-      "price": 6,
-      "deleted": true
+      "title": "Guitar",
+      "price": 7,
+      "deleted": false
     },
     {
       "id": 3,
@@ -21,7 +21,7 @@
     {
       "id": 4,
       "title": "Palace",
-      "price": 5,
+      "price": 500000,
       "deleted": false
     },
     {
@@ -155,6 +155,12 @@
       "title": "test",
       "price": 23333,
       "deleted": true
+    },
+    {
+      "id": 909,
+      "title": "Brick and Mortar",
+      "price": 5,
+      "deleted": false
     }
   ]
 }

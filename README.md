@@ -20,9 +20,15 @@ Now, this may ask you that port 3000 is taken so can we run in 3001. Please say 
 Run the app in the development mode.\
 Open [http://localhost:3001](http://localhost:3001) to view it in your browser.
 
+### Credentials
+login: admin
+password: p
+
+Very secure. 
+
 ### Sort the grid
 
 Click on the header of any cell in the Students grid. You'll be able to sort and filter
 
 ### Swagger API
-You can find swagger API in http://localhost:3000/api and you may do CRUD operations there. 
+You can find swagger API in http://localhost:3000/api and you may do CRUD operations there. Port will be the backend port you launched in step 1. Not client port. 

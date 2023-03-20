@@ -7,7 +7,7 @@ async function bootstrap() {
   app.enableCors();
 
   const config = new DocumentBuilder()
-    .setTitle('Demo API')
+    .setTitle('Store APIs by Imran')
     .setDescription('Store front by Imran - API with CRUD functionality')
     .setVersion('1.0')
     .build();
@@ -16,7 +16,5 @@ async function bootstrap() {
   SwaggerModule.setup('api', app, document);
 
   await app.listen(3000);
-
-
 }
 bootstrap();
