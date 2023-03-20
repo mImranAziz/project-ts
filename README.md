@@ -1,4 +1,4 @@
-# Running Student App
+# Running Store App
 
 To install all the dependencies please do 
 
