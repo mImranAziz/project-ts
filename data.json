@@ -2,8 +2,8 @@
   "products": [
     {
       "id": 1,
-      "title": "Truck",
-      "price": 9,
+      "title": "Product 1",
+      "price": 10,
       "deleted": false
     },
     {
@@ -14,9 +14,7 @@
     },
     {
       "id": 3,
-      "title": "Bread",
-      "price": 4,
-      "deleted": false
+      "title": "Shirt"
     },
     {
       "id": 4,
@@ -134,9 +132,9 @@
     },
     {
       "id": 77777,
-      "title": "",
+      "title": "Soething",
       "price": 5,
-      "deleted": true
+      "deleted": false
     },
     {
       "id": 444,

@@ -29,7 +29,7 @@ export class AppService {
   }
 
   async upsertProduct(newProducts) {
-    const data = JSON.parse(fs.readFileSync(dataFile, 'utf8'));
+    const data = JSON.parse(await fs.readFileSync(dataFile, 'utf8'));
     const products = data.products;
     for (const product of newProducts) {
       if (!products.some((x: any) => x.id === product.id)) {
@@ -40,7 +40,7 @@ export class AppService {
       }
     }
 
-    fs.writeFileSync(dataFile, JSON.stringify({ products }, null, 2));
+    await fs.writeFileSync(dataFile, JSON.stringify({ products }, null, 2));
     return { response: "ok" };
   }
 }
